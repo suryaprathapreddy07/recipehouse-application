@@ -9,7 +9,7 @@ import uploadRecipeView from './views/uploadRecipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 const recipeContainer = document.querySelector('.recipe');
-
+console.log('surya');
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
