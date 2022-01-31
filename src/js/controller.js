@@ -107,6 +107,8 @@ const init = function () {
   //bookmark handler
   recipeView.addHandlerAddBookmark(controlBookmarks);
   uploadRecipeView.addHandlerUploadRecipe(controlUploadRecipe);
+  //adding welcome message
+  console.log('WELCOME TO APPLICATION');
 };
 init();
 // bookmarksView.render(model.state.bookmarks);
