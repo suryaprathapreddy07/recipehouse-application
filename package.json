@@ -1,0 +1,20 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "recipe finding application",
+  "default": "controller.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "surya prathap reddy",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "core-js": "^3.20.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
